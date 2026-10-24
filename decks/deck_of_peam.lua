@@ -28,7 +28,7 @@ SMODS.Back {
                 play_sound('timpani')
                 if #G.jokers.cards + G.GAME.joker_buffer < G.jokers.config.card_limit then
                     G.GAME.joker_buffer = G.GAME.joker_buffer + 1
-                    local new_joker = SMODS.add_card({ set = 'Joker', rarity = 'pud_peculiar' })
+                    local new_joker = SMODS.add_card({ set = 'Joker', rarity = 'spud_peculiar' })
                     if new_joker then
                     end
                     G.GAME.joker_buffer = 0
