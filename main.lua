@@ -14,13 +14,6 @@ SMODS.Atlas({
     atlas_table = "ASSET_ATLAS"
 }):register()
 
-SMODS.Atlas({
-    key = "CustomConsumables", 
-    path = "CustomConsumables.png", 
-    px = 71,
-    py = 95, 
-    atlas_table = "ASSET_ATLAS"
-}):register()
 
 SMODS.current_mod.optional_features = function()
     return {
@@ -45,18 +38,6 @@ local function load_jokers_folder()
     end
 end
 
-local function load_consumables_folder()
-    local mod_path = SMODS.current_mod.path
-    local consumables_path = mod_path .. "/consumables"
-    local files = NFS.getDirectoryItemsInfo(consumables_path)
-    for i = 1, #files do
-        local file_name = files[i].name
-        if file_name:sub(-4) == ".lua" then
-            assert(SMODS.load_file("consumables/" .. file_name))()
-        end
-    end
-end
-
 local function load_decks_folder()
     local mod_path = SMODS.current_mod.path
     local decks_path = mod_path .. "/decks"
@@ -76,5 +57,4 @@ end
 
 load_rarities_file()
 load_jokers_folder()
-load_consumables_folder()
 load_decks_folder()
