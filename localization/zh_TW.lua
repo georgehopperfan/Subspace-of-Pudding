@@ -1,0 +1,1059 @@
+return {
+   descriptions = {
+                Planet = {
+			c_pud_sholstar = {
+				name = "S O L",
+				text = {
+					"隨機升級{C:attention}3{}個牌型",
+				},
+			},
+               },
+                Tarot = {
+			c_pud_ambification = {
+				name = "餛飩之劍",
+				text = {
+					"賦予至多{C:attention}2{}張牌隨機{C:enhanced}強化{}，{C:attention}封蠟章{}",
+				},
+			},
+               },
+		Joker = {
+			j_pud_adasaurus = {
+				name = "阿達龍(v36-53)",
+				text = {
+					"當一張牌被計分時，",
+					"{C:red}+#1#{}倍率",
+				},
+			},
+			j_pud_adeck = {
+				name = "一副牌",
+				text = {
+					"提供相當於一副{C:attention}標準撲克牌{}",
+					"的{C:blue}籌碼{}{C:inactive}(+380){}",
+				},
+			},
+			j_pud_ancientidol = {
+				name = "遠古雕像",
+				text = {
+					"{C:red}-1{}消耗牌欄位",
+					"手中的{C:attention}#2#{}給予{X:red,C:white}X#1#{}倍率",
+					"{C:inactive}回合結束時重製點數{}",
+				},
+			},
+			j_pud_ancientmeme = {
+				text = {
+					"商店重骰時",
+					"{X:attention,C:dark_edition}=$939{}",
+				},
+			},
+			j_pud_armorsmith = {
+				name = "製甲師",
+				text = {
+					"每從商店購買",
+					"{C:attention}4{}張{C:inactive}(#1#){}卡牌時，",
+					"這張小丑獲得{X:red,C:white}X#2#{}倍率",
+					"{C:inactive}(目前{}{X:red,C:white}X#3#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_avenger = {
+				name = "復仇者(v52)",
+				text = {
+					"若打出的牌型本回合打出過，",
+					"本回合{C:blue}+#1#{}出牌次數",
+					"{C:inactive}Ah yes 一般稀有度(二周目){}",
+				},
+			},
+			j_pud_babyzombie = {
+				name = "小殭屍",
+				text = {
+					"打出的牌有{C:green}#1#/#2#{}機率重新觸發",
+				},
+			},
+			j_pud_backpack = {
+				name = "背包",
+				text = {
+					"{C:attention}+4{}消耗牌欄位",
+				},
+			},
+			j_pud_bacteria = {
+				name = "細菌",
+				text = {
+					"{C:blue}+#1#{}籌碼",
+					"{C:red}+#2#{}倍率",
+                    "選擇{C:attention}盲注{}時複製這張牌",
+                    "{C:inactive}(移除{}{C:dark_edition}負片{}，{C:inactive}必須有空間){}",
+				},
+			},
+			j_pud_barracuda = {
+				name = "梭魚",
+				text = {
+					"重新觸發打出的",
+					"{C:attention}6,7,8,9,10{}",
+				},
+			},
+			j_pud_bez = {
+				name = "氣球禁區(v38-53)",
+				text = {
+					"打出並計分的{C:spades}黑桃{}牌",
+					"永久獲得{C:red}+#1#{}倍率",
+				},
+			},
+			j_pud_bioweapon = {
+				name = "生化武器",
+				text = {
+					"結束階段，這張小丑獲得{C:red}-#1#{}及{X:red,C:white}X#2#{}倍率",
+					"{C:inactive}(目前{}{C:red}#3#{}{C:inactive}，{}{X:red,C:white}X#4#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_blaze = {
+				name = "烈焰使者",
+				text = {
+					"若打出牌型包含{C:attention}三條{}，",
+					"產生三張{C:attention}力量{}塔羅牌",
+				},
+			},
+			j_pud_bloonchipper = {
+				name = "氣球吸塵器",
+				text = {
+					"進入{C:attention}盲注{}時，{C:red}+#1#{}棄牌次數",
+					"每個{C:attention}底注{}棄牌數量{C:red}+#2#{}",
+				},
+			},
+			j_pud_bossfarmingguide = {
+				name = "農錢教學",
+				text = {
+					"回合結束時，獲得{C:gold}$#1#{}",
+					"並且每擁有{C:gold}$10{}收入{C:gold}+1{}",
+				},
+			},
+			j_pud_boundary = {
+				name = "臨界",
+				text = {
+					"lim {C:attention}n{} -> {X:dark_edition,C:white}正無窮{}",
+					"{X:red,C:white}X1.444667861^^n{}倍率",
+					"{C:inactive,s:0.6}解釋:e^e^-1剛剛好有1個{}",
+					"{C:inactive,s:0.6}f(x)=a^x的不動點，即e{}",
+					"{C:inactive,s:0.6}這意味著(e^e^-1)^^正無窮，或{}",
+					"{C:inactive,s:0.6}(e^e^-1)^(e^e^-1)^...無限堆的指數塔{}",
+					"{C:inactive,s:0.6}不會發散出不動點之外{}",
+					"{C:inactive,s:0.6}1.444667861是e^e^-1的近似{}",
+					"{C:inactive,s:0.6}剛好有兩個f(x)=a^x的不動點{}",
+					"{C:inactive,s:0.6}其中數值較小者趨近於2.718{}",
+				},
+			},
+			j_pud_bow = {
+				name = "弓",
+				text = {
+					"每{C:attention}#2#{}次出牌{X:red,C:white}X#3#{}倍率{C:inactive}(#1#){}",
+				},
+			},
+			j_pud_brickell = {
+				text = {
+					"重骰時獲得{X:red,C:white}X#2#{}倍率",
+					"回合結束時重製",
+                    "{C:inactive}(目前{}{X:red,C:white}X#1#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_buchi = {
+				name = "斑斑",
+				text = {
+					"{X:legendary,C:white}^#1#{}倍率",
+					"出牌時此數值減少{X:legendary,C:white}#3#{}",
+                    "減少至{X:legendary,C:white}0{}以下時永久設為{X:legendary,C:white}^3.57{}倍率",
+				},
+			},
+			j_pud_cancan = {
+				name = "康康舞貓",
+				text = {
+					"每回合首次出牌{X:red,C:white}X#1#{}倍率",
+					"回合結束時，給予等同於",
+					"盲注獎勵與剩餘手牌之和的{C:money}${}",
+				},
+			},
+			j_pud_catasaurus = {
+				name = "侏儸恐龍貓",
+				text = {
+					"{C:green}#1#/#2#{}機率{X:red,C:white}X#3#{}倍率",
+					"機率結算{C:attention}5{}次",
+				},
+			},
+			j_pud_cavemonkey = {
+				name = "洞穴猴",
+				text = {
+					"進入盲注時，將一張",
+					"{C:dark_edition}負片{}{C:red}紅色封蠟章{}石頭牌加入手牌",
+				},
+			},
+			j_pud_carrierflagship = {
+				name = "航母旗艦",
+				text = {
+					"打出的{C:clubs}梅花{}被計分時",
+					"有{C:green}#2#/#3#{}機率{X:blue,C:white}X#1#{}籌碼",
+                    "{C:inactive}let's go gambing!{}",
+				},
+			},
+			j_pud_cartographer = {
+				name = "製圖師",
+				text = {
+					"{C:attention}+2{}商店欄位",
+				},
+			},
+			j_pud_chocolatebarquotes = {
+				name = "Chocolatebar名言",
+				text = {
+					"In today's {C:attention}video{}, {C:attention}five{} of my friends",
+					"try {C:attention}hunt{} me down and {C:attention}stop{} me",
+					"from beating {C:attention}Minecraft{}.",
+					"Can they stop me from beating the",
+					"{C:dark_edition}ender dragon{} or will I {C:attention}survive{}?",
+					"This is it, {C:blue}Minecraft manhunt versus 5 hunters{},",
+					"the finale. Also, only a {C:green}small percentage{}",
+					"of people that watch my videos",
+					"are actually {C:attention}subscribed{}, so consider subscribing.",
+					"it\'s {C:green}free{} and you can always change your mind later.",
+					"{C:attention}Enjoy.{}",
+					"{C:inactive}實際效果:每個cbqpl的Chocolatebar名言提供+1倍率{}",
+				},
+			},
+			j_pud_cleric = {
+				name = "神職人員",
+				text = {
+					"每張打出的{C:attention}倍率牌{}計分時，",
+					"獲得{X:red,C:white}X#2#{}倍率並",
+					"移除{C:attention}倍率牌{}強化",
+					"{C:inactive}(目前{}{X:red,C:white}X#1#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_clubism = {
+				name = "梅花精神",
+				text = {
+					"若打出的牌包含一張計分的{C:clubs}梅花{}，",
+					"升級打出的牌型",
+				},
+			},
+			j_pud_cobaltjoker = {
+				name = "鈷小丑",
+				text = {
+					"{C:attention}重新觸發{}右邊的小丑",
+				},
+			},
+			j_pud_cobble = {
+				name = "鵝卵石製造機",
+				text = {
+					"若打出的牌包含一張計分的黑色牌和紅色牌，",
+					"這張小丑獲得{C:blue}+#1#{}籌碼",
+					"{C:inactive}(目前{}{C:blue}+#2#{}{C:inactive}籌碼){}",
+				},
+			},
+			j_pud_coconut = {
+				name = "椰子",
+				text = {
+					"{C:blue}+#1#{}籌碼",
+					"{C:attention}-1{}手牌上限",
+				},
+			},
+			j_pud_copperjoker = {
+				name = "銅小丑",
+				text = {
+					"每個剩餘的出牌次數",
+					"提供{X:red,C:white}X#1#{}倍率",
+					"{C:inactive}(目前{}{X:red,C:white}X#2#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_corvus = {
+				text = {
+					"每{C:attention}3{}次出牌產生一張{C:spectral}火祭{}",
+					"{C:inactive}剩餘#1#次{}",
+				},
+			},
+			j_pud_creeper = {
+				name = "苦力怕",
+				text = {
+					"最後一次出牌時，",
+					"{X:red,C:white}X#1#{}倍率並摧毀有計分的牌，然後{C:red}自爆{}",
+				},
+			},
+			j_pud_cripplemoab = {
+				name = "殘廢MOAB (v37-49)",
+				text = {
+					"出牌時{C:attention}-28%{}盲注所需分數",
+				},
+			},
+			j_pud_cyborg = {
+				name = "窈窕佳人貓",
+				text = {
+					"所有手中的{C:attention}強化牌{}",
+					"給予{X:red,C:white}X#1#{}倍率",
+				},
+			},
+			j_pud_doreostream = {
+				name = "Doreo直播",
+				text = {
+					"所有牌點數均視為{C:attention}7{}",
+				},
+			},
+			j_pud_derivative = {
+				name = "微分",
+				text = {
+					"{X:legendary,C:white}^#1#{}倍率",
+					"{X:red,C:white}X#2#{}倍率",
+				},
+			},
+			j_pud_ellen = {
+				name = "艾倫",
+				text = {
+					"若打出的牌型為",
+					"本回合首次打出，",
+					"{X:red,C:white}X#1#{}倍率",
+				},
+			},
+			j_pud_elderguardian = {
+				name = "遠古深海守衛",
+				text = {
+					"打出的{C:attention}3,6{}或{C:attention}9{}計分時{C:money}+$#1#{}",
+				},
+			},
+			j_pud_enderman = {
+				name = "終界使者",
+				text = {
+					"每個回合首次出牌時，失去所有棄牌，",
+					"每失去1棄牌本回合額外{X:red,C:white}X1{}倍率",
+					"{C:inactive}（目前{}{X:red,C:white}X#1#{}{C:inactive}倍率）{}",
+				},
+			},
+			j_pud_ezili = {
+				text = {
+					"{C:purple}平衡{}{C:blue}籌碼{}和{C:red}倍率{}",
+				},
+			},
+			j_pud_farmer = {
+				name = "農夫",
+				text = {
+					"商店的消耗牌便宜{C:money}$2{}",
+				},
+			},
+			j_pud_fannypack = {
+				name = "腰包",
+				text = {
+					"{C:attention}+2{}消耗牌欄位",
+				},
+			},
+			j_pud_fishingrod = {
+				name = "釣竿",
+				text = {
+					"進入{C:attention}盲注{}時",
+					"產生一張隨機消耗牌",
+				},
+			},
+			j_pud_flash = {
+				name = "閃現",
+				text = {
+					"每張閃卡提供{X:red,C:white}X#1#{}倍率",
+					"當{C:green}商店{}被重骰時，",
+					"產生一張{C:attention}閃卡{}",
+					"然後將{X:red,C:white}X倍率{}數值提升{X:red,C:white}+0.5{}",
+				},
+			},
+			j_pud_fletcher = {
+				name = "製箭師",
+				text = {
+					"每打出{C:attention}#1#{}張牌{C:inactive}(#2#){}",
+					"賺取{C:gold}$#3#{}",
+				},
+			},
+			j_pud_fortmilk = {
+				name = "奶白金",
+				text = {
+					"回合結束時",
+					"若分數未達盲注要求，",
+					"{C:attention}防止死亡{}直到本底注結束，",
+					"並在該底注結束時{C:red}自我摧毀{}",
+				},
+			},
+			j_pud_freedartmonkey = {
+				name = "免費飛鏢猴",
+				text = {
+					"{C:blue}+#1#{}籌碼",
+					"{C:red}+#2#{}倍率",
+					"購買此牌時{C:gold}+$1{}",
+				},
+			},
+			j_pud_fungus = {
+				name = "真菌",
+				text = {
+					"{X:red,C:white}X#1#{}倍率",
+					"選擇{C:attention}盲注{}時{C:blue}+#2#{}出牌",
+				},
+			},
+			j_pud_georgehoppersfan = {
+				name = "河狸王喬治廚",
+				text = {
+					"每張{C:attention}喬治{}有關的小丑{X:red,C:white}X#1#{}倍率",
+					"取消{C:diamonds}窗戶{}的盲注效果",
+				},
+			},
+			j_pud_giganotosaurus = {
+				name = "南方巨獸龍",
+				text = {
+					"{X:red,C:white}X#2#{}倍率",
+					"出牌額外占用{C:blue}#1#{}個出牌次數",
+				},
+			},
+			j_pud_glaivelord = {
+				name = "大刀王",
+				text = {
+					"每次出牌中{C:attention}非第一次{}計分的牌",
+					"為這張小丑提供{C:blue}+#2#{}籌碼",
+					"{C:inactive}(目前{}{C:blue}+#1#{}{C:inactive}籌碼){}",
+				},
+			},
+			j_pud_gravolodon = {
+				name = "岩石精靈強韌伊瓦",
+				text = {
+					"手牌中每有一張{C:attention}石頭牌{}，",
+					"所有打出的牌計分時",
+					"額外{X:red,C:white}X#1#{}倍率",
+				},
+			},
+			j_pud_greencookie = {
+				name = "小綠餅乾",
+				text = {
+					"{C:red}+#1#{}倍率",
+					"出牌時此數值乘以{C:red}#2#{}",
+				},
+			},
+			j_pud_gluestorm = {
+				name = "膠水風暴(v39+)",
+				text = {
+					"每兩次出牌重新觸發所有",
+					"手中的牌{C:attention}2{}次{C:inactive}(#1#){}",
+				},
+			},
+			j_pud_groundzero = {
+				name = "寸草不生(v18-29)",
+				text = {
+					"每回合第一次出牌",
+					"{C:blue}+#1#{}籌碼",
+				},
+			},
+			j_pud_guardian = {
+				name = "深海守衛",
+				text = {
+					"打出的{C:attention}3,6{}或{C:attention}9{}計分時{C:red}+#1#{}倍率",
+				},
+			},
+			j_pud_geraldo = {
+				text = {
+					"商店重骰時產生一個隨機標籤",
+					"{C:inactive}Ah yes 一般稀有度{}",
+				},
+			},
+			j_pud_hightier1 = {
+				text = {
+					"打出的{C:attention}A{}視為擁有{C:dark_edition}負片{}以外",
+					"的所有其他原版版本",
+				},
+			},
+			j_pud_horseboard = {
+				name = "Horseboard",
+				text = {
+					"{C:dark_edition}Bloonlatro discord{} horseboard 討論串中",
+					"每有一個{C:attention}:horse:{}反應{X:red,C:white}X1{}倍率",
+					"{C:inactive}(當前{}{X:red,C:white}X8{}{C:inactive}倍率){}"
+				},
+			},
+			j_pud_hoglin = {
+				name = "豬布獸",
+				text = {
+					"手牌計分前{C:red}+#1#{}倍率",
+					"若打出的牌為{C:attention}剛好1張牌{}，",
+					"該牌點數{C:attention}+2{}",
+				},
+			},
+			j_pud_hepatizonjoker = {
+				name = "黑色科林斯青銅小丑",
+				text = {
+					"重新觸發所有打出的牌{C:attention}#1#{}次，",
+					"每連續打出{C:attention}3{}次包含順子的牌型",
+					"重新觸發次數{C:attention}+1{} {C:inactive}(#2#/3){}",
+					"{C:inactive}最多重新觸發10次{}",
+				},
+			},
+			j_pud_iciclez = {
+				name = "Iciclez_",
+				text = {
+					"進入盲注時",
+					"建立一個{C:attention}小帳{}",
+				},
+			},
+			j_pud_iciclezalt = {
+				name = "Iciclez_的小帳",
+				text = {
+					"{X:red,C:white}X#1#{}倍率",
+					"{C:dark_edition}+#2#{}小丑牌欄位",
+				},
+			},
+			j_pud_issimo = {
+				name = "Issimo",
+				text = {
+					"購買此牌時{C:gold}+$#2#{}且{C:red}+#1#{}底注",
+				},
+			},
+			j_pud_juggernuthole = {
+				name = "地圖砲",
+				text = {
+					"若牌型包含{C:attention}五條{}或{C:attention}同花葫蘆{}",
+					"重新觸發打出的牌{C:attention}#1#次{}",
+				},
+			},
+			j_pud_kinggeorge = {
+				name = "喬治國王",
+				text = {
+					"回合結束時賺取{C:gold}$#1#{}",
+					"打出的{C:diamonds}方塊{}牌計分時此數值{C:gold}+$#2#{}",
+				},
+			},
+			j_pud_kingscouncil = {
+				name = "國王議會",
+				text = {
+					"若打出的牌型包含的計分牌數",
+					">2張，這張小丑獲得{X:red,C:white}X#2#{}倍率，",
+					"<=2張，倍率{C:red}歸零{}",
+					"{C:inactive}(目前{}{X:red,C:white}X#1#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_librarian = {
+				name = "圖書管理員",
+				text = {
+					"重骰商店時，",
+					"{C:green}#1#/#2#{}機率產生一張",
+					"隨機{C:spectral}幻靈牌{}",				
+				},
+			},
+			j_pud_literallycryptid = {
+				name = "很神秘的生物",
+				text = {
+					"若打出剛好{C:attention}1{}張牌",
+					"產生{C:attention}2{}張打出牌的複製牌",
+					"並{C:red}自我摧毀{}",				
+				},
+			},
+			j_pud_literallythesoul = {
+				name = "有靈魂的靈魂",
+				text = {
+					"{C:attention}Boss盲注{}被擊敗時，",
+					"產生一張{C:legendary}傳奇{}小丑",
+					"並{C:red}自我摧毀{}",				
+				},
+			},
+			j_pud_loaf = {
+				name = "洛夫",
+				text = {
+					"回合結束時，每個剩餘的出牌和棄牌",
+					"為這張小丑提供{C:blue}+#1#{}籌碼",
+					"{C:inactive}(目前{}{C:blue}+#2#{}{C:inactive}籌碼){}",		
+				},
+			},
+			j_pud_lollipop = {
+				name = "棒棒糖",
+				text = {
+					"這張小丑被賣出時，",
+					"賦予兩側的小丑{C:dark_edition}多彩{}及{C:dark_edition}易腐{}",
+				},
+			},
+			j_pud_lowtier1 = {
+				text = {
+					"重新觸發打出的{C:attention}A{}兩次",
+				},
+			},
+			j_pud_mabel = {
+				name = "梅寶",
+				text = {
+					"打出牌結算前，所有小丑的數值",
+					"隨機改為目前數值的{C:attention}X0.8{}到{C:attention}X1.28{}倍",
+				},
+			},
+			j_pud_manyullynjoker = {
+				name = "瑪玉靈小丑",
+				text = {
+					"打出的牌被計分時，{X:red,C:white}X#1#{}倍率",
+					"然後將{X:red,C:white}X倍率{}數值提升{X:red,C:white}+#2#{}",
+				},
+			},
+			j_pud_mace = {
+				name = "重錘",
+				text = {
+					"打出並計分的牌中",
+					"最高點數和最低點數每差1點",
+					"{X:red,C:white}X0.6{}倍率"
+				},
+			},
+			j_pud_megalodon = {
+				name = "巨齒鯊",
+				text = {
+					"{C:blue}獎勵牌{}被計分時，",
+					"這張小丑獲得{X:blue,C:white}X#2#{}籌碼",
+					"{C:inactive}(目前{}{X:blue,C:white}X#1#{}{C:inactive}籌碼){}",
+				},
+			},
+			j_pud_nanovirus = {
+				name = "奈米病毒",
+				text = {
+					"商店商品價格均便宜{C:gold}$1{}",
+				},
+			},
+			j_pud_nahuatljoker = {
+				name = "納瓦特爾小丑",
+				text = {
+					"若剛好打出{C:attention}3{}張牌",
+					"打出的牌{C:attention}計分{}時{C:attention}-1{}點數",
+					"並為這張小丑提供{C:mult}+#1#{}倍率",
+					"{C:inactive}(目前{}{C:red}+#2#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_neuraxworm = {
+				name = "Neurax 蠕蟲",
+				text = {
+					"手中的牌有{C:green}#2#/#3#{}機率",
+					"給予{X:legendary,C:white}^#1#{}倍率",
+				},
+			},
+			j_pud_nitwit = {
+				name = "傻子",
+				text = {
+					"請輸入文本",
+				},
+			},
+			j_pud_nksucks = {
+				name = "Ninja Kiwi 平衡 be like",
+				text = {
+					"回合結束時，若這張小丑兩側的小丑的數值均可調整，",
+					"{C:attention}左邊小丑{}數值{C:attention}-50%{}，{C:attention}右邊小丑{}數值{C:attention}+50%{}",
+				},
+			},
+			j_pud_normaldistribution = {
+				name = "常態分佈",
+				text = {
+					"從{X:red,C:white}X1{}倍率開始",
+					"所有打出的牌中",
+					"每張{C:attention}7{}額外給予{X:red,C:white}X#1#{}倍率",
+					"每張{C:attention}6或8{}額外給予{X:red,C:white}X#2#{}倍率",
+					"每張{C:attention}5或9{}額外給予{X:red,C:white}X#3#{}倍率"
+				},
+			},			
+			j_pud_orca = {
+				name = "逆戟鯨(v36.0-36.1)",
+				text = {
+					"{X:red,C:white}X#2#{}倍率",
+					"擊敗{C:attention}Boss盲注{}後設為{X:red,C:white}X#1#{}倍率",
+				},
+			},
+			j_pud_overclock = {
+				name = "Overclock",
+				text = {
+					"結束商店後上傳",
+					"一期{C:dark_edition}負片{}{C:attention}農錢教學{}",
+					"進入商店時產生",
+					"一個{C:dark_edition}負片易腐{}{C:attention}鈷小丑{}",
+				},
+			},
+			j_pud_parasite = {
+				name = "寄生蟲",
+				text = {
+					"這張小丑在最後一次出牌時",
+					"獲得{C:red}+#2#{}倍率",
+					"{C:inactive}(目前{}{C:red}+#1#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_party = {
+				text = {
+					"若打出並計分的牌數量",
+					"{C:attention}大於{}擁有的小丑數量，",
+					"這張小丑獲得{C:blue}3{}倍",
+                    "小丑數量的{C:blue}籌碼{}",
+					"{C:inactive}(目前{}{C:blue}+#1#{}{C:inactive}籌碼){}",
+				},
+			},
+			j_pud_patfusty = {
+				text = {
+					"{C:attention}+100{}卡牌選擇上限",
+					"{C:inactive}big monke{}",
+				},
+			},
+			j_pud_piglin = {
+				name = "豬布林",
+				text = {
+					"若打出的牌包含{C:gold}黃金牌{}",
+					"產生一張隨機{C:dark_edition}負片{}{C:tarot}塔羅牌{}",
+				},
+			},
+			j_pud_piglinbrute = {
+				name = "豬布林蠻兵",
+				text = {
+					"若打出的牌型包含{C:attention}同花順{}",
+					"這張小丑獲得{X:red,C:white}X#2#{}倍率",
+					"{C:inactive}(目前{}{X:red,C:white}X#1#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_ploone = {
+				text = {
+					"在結束商店後產生",
+					"一隻{C:dark_edition}負片{}{C:attention}幸運貓{}"
+				},
+			},
+			j_pud_popandawe = {
+				name = "爆炸中請仰視",
+				text = {
+					"{C:blue}-#1#{}籌碼",
+					"{X:blue,C:white}X#2#{}籌碼",
+				},
+			},
+			j_pud_pouakai = {
+				name = "食人鳥(v36-38)",
+				text = {
+					"進入{C:attention}盲注{}時{X:attention,C:white}=#2#{}手牌大小",
+					"出牌或棄牌時{C:attention}+#1#{}手牌大小",
+				},
+			},
+			j_pud_prion = {
+				name = "阮病毒",
+				text = {
+					"擊敗Boss盲注時",
+					"{C:green}#1#/#2#{}機率{C:attention}-1{}底注",
+				},
+			},
+			j_pud_puddingegg = {
+				name = "布丁蛋",
+				text = {
+					"回合結束時{C:dark_edition}+#1#{}小丑牌欄位",
+ 				},
+			},
+			j_pud_sbrit = {
+				name = "超級脆化(v51)",
+				text = {
+					"手中的{C:attention}5{}",
+					"給予{C:blue}+#1#{}籌碼",
+				},
+			},
+			j_pud_scaredface = {
+				text = {
+					"打出的{C:diamonds}方塊{}計分時",
+					"{C:blue}+#1#{}籌碼",
+				},
+			},
+			j_pud_sealpurple = {
+				name = "不死斑海豹桑",
+				text = {
+					"{C:attention}-1{}手牌大小",
+					"棄牌時隨機產生一張{C:tarot}塔羅牌{}",
+				},
+			},
+			j_pud_sealred = {
+				name = "斑海豹桑",
+				text = {
+					"{C:attention}-1{}手牌大小",
+					"重新觸發所有打出的牌",
+				},
+			},
+			j_pud_sealgold = {
+				name = "黃金斑海豹桑",
+				text = {
+					"{C:attention}-1{}手牌大小",
+					"出牌時獲得{C:gold}$#1#{}",
+				},
+			},
+			j_pud_sealblue = {
+				name = "斑海星人",
+				text = {
+					"{C:attention}-1{}手牌大小",
+					"回合結束時產生上個{C:attention}牌型{}的{C:planet}星球牌{}",
+				},
+			},
+			j_pud_silas = {
+				text = {
+					"跳過補充包時產生一張{C:blue}Icicle{}",
+					"所有{C:blue}Icicle{}及{C:blue}Icicle小帳{}提供{C:red}+#1#{}倍率",
+				},
+			},
+			j_pud_skeleton = {
+				name = "骷髏",
+				text = {
+					"每打出3張牌{C:red}+#1#{}倍率",
+					"{C:inactive}(目前#2#/3){}",
+				},
+			},
+			j_pud_shulker = {
+				name = "界伏蚌",
+				text = {
+					"商店結束時，",
+					"將所有消耗牌欄位中的牌",
+					"改為{C:dark_edition}負片{}",
+				},
+			},
+			j_pud_solo = {
+				text = {
+					"若打出的牌型為{C:attention}高牌{}，",
+					"{C:green}#3#/#4#{}機率獲得{C:red}+#1#{}倍率",
+					"{C:inactive}(目前{}{C:red}+#2#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_soundwavecontroller = {
+				name = "聲波控制器",
+				text = {
+					"{C:red}+20X-5X^2{}倍率，",
+					"其中X為剩餘出牌數",
+				},
+			},
+			j_pud_spider = {
+				name = "蜘蛛",
+				text = {
+					"打出的{C:attention}8{}",
+					"永久獲得{C:blue}+#1#{}籌碼",
+				},
+			},
+			j_pud_sportsdrink = {
+				name = "寶礦力",
+				text = {
+					"若剩餘出牌數小於{C:blue}2{}，",
+					"{X:blue,C:white}X#1#{}籌碼，結算完畢後{X:blue,C:white}-X#2#{}",
+				},
+			},
+			j_pud_toolsmith = {
+				name = "工具匠",
+				text = {
+					"從商店購買牌時，",
+					"這張小丑獲得{C:red}+#1#{}倍率",
+					"{C:inactive}(目前{}{C:red}+#2#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_thetreeisloud = {
+				name = "是樹在吵",
+				text = {
+					"打出的{C:attention}3{}計分時，",
+					"這張小丑獲得{C:gold}$3{}的出售價值",
+					"在有{C:gold}$30{}以上出售價值賣出時，",
+					"產生一張額外的本張小丑",
+				},
+			},
+			j_pud_trident = {
+				name = "三叉戟",
+				text = {
+					"若打出的牌型包含{C:attention}三條{}，",
+					"提升打出牌型的等級",
+				},
+			},
+			j_pud_ramen = {
+				name = "拉麵",
+				text = {
+					"將所有被列出機率的",
+					"分子{C:green}X1000000{}",
+ 				},
+			},
+			j_pud_redsauda = {
+				text = {
+					"{C:attention}第1張{}打出的牌計分時",
+					"交換{C:blue}籌碼{}和{C:red}倍率{}",
+ 				},
+			},
+			j_pud_reconciliation = {
+				name = "和解",
+				text = {
+					"重新觸發打出的{C:diamonds}方塊{}牌",
+ 				},
+			},
+			j_pud_ripchamp = {
+				name = "激流鬥士(v52)",
+				text = {
+					"打出的牌計分時，",
+					"這張小丑獲得{X:blue,C:white}X#1#{}籌碼",
+					"回合結束時{C:attention}重置{}",
+					"{C:inactive}(目前{}{X:blue,C:white}X#2#{}{C:inactive}籌碼){}",
+ 				},
+			},
+			j_pud_rosalia = {
+				name = "小橘子(v43)",
+				text = {
+					"{C:blue}+#1#{}籌碼",
+ 				},
+			},
+			j_pud_rosegoldjoker = {
+				name = "玫瑰金小丑",
+				text = {
+					"{C:attention}+#2#{}小丑牌欄位",
+					"{X:chips,C:white}X#1#{}籌碼",
+ 				},
+			},
+			j_pud_rotationmatrix = {
+				name = "旋轉矩陣",
+				text = {
+					"若打出並計分的牌為剛好{C:attention}#1#{}張，",
+					"這張小丑獲得{C:red}+2pi/3{}倍率",
+					"並旋轉所需的牌數{C:inactive}(1->3->5){}",
+					"{C:inactive}(目前大約{}{C:red}+#2#{}{C:inactive}倍率){}",
+ 				},
+			},	
+			j_pud_samurai = {
+				name = "武士",
+				text = {
+					"每{C:attention}7{}張牌計分時{X:red,C:white}X#1#{}倍率",
+					"{C:inactive}(目前#2#/7){}"
+				},
+			},
+			j_pud_simultaneousdivergence = {
+				name = "共時性",
+				text = {
+					"若計分的牌中包含{C:clubs}梅花{}及",
+					"一張其他花色的牌，",
+					"這張小丑獲得{X:legendary,C:white}^#2#{}倍率",
+					"{C:inactive}(目前{}{X:legendary,C:white}^#1#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_sheppi = {
+				text = {
+					"打出的{C:hearts}愛心{}被計分時，{X:blue,C:white}X#1#{}籌碼",
+					"然後將{X:blue,C:white}X籌碼{}數值提升{X:blue,C:white}+#2#{}",
+				},
+			},
+			j_pud_shiniestaward = {
+				text = {
+					"至少打出{C:attention}#1#{}次牌後{C:red}+2000000{}倍率",
+					"{C:inactive}(#2#/#1#){}",
+				},
+			},
+			j_pud_squalch = {
+				text = {
+					"{C:blue}+#2#{}籌碼",
+					"若本回合第一次出牌包含{C:attention}剛好4張牌{}，",
+					"籌碼成長至下一個{C:attention}完全平方數{}",
+					"{C:inactive,s:0.7}(ex. +16, +25, +36, +49...){}",
+				},
+			},
+			j_pud_stupidowlstall = {
+				name = "角鶚",
+				text = {
+					"出牌時有{C:green}#4#/#5#{}機率",
+					"{C:blue}+#1#{}出牌次數並{X:blue,C:white}X#2#{}籌碼",
+				},
+			},
+			j_pud_taisho = {
+				name = "大翔",
+				text = {
+					"最後一次出牌時",
+					"{C:attention}強制觸發{}右邊的小丑",
+				},
+			},
+			j_pud_tenthepurples = {
+				text = {
+					"選擇{C:attention}Boss盲注{}時，",
+					"{C:attention}取消{}盲注效果並{C:red}X2{}盲注大小",
+				},
+			},
+			j_pud_theblazingsun = {
+				name = "熾熱太陽",
+				text = {
+					"第{C:attention}5{}次出牌{C:red}+55{}倍率",
+					"非第5次出牌{C:blue}+12{}籌碼",
+					"{C:inactive}剩餘#1#次{}",
+				},
+			},
+			j_pud_thefungus = {
+				text = {
+					"選擇{C:attention}盲注{}時，隨機摧毀一張小丑",
+					"並將其{C:attention}售價{}加到{X:planet,C:white}^籌碼{}",
+					"{C:inactive}(目前{}{X:planet,C:white}^#1#{}{C:inactive}籌碼){}",
+				},
+			},
+			j_pud_thepudding = {
+				name = "小布丁",
+				text = {
+					"{X:dark_edition,C:white}#1#{}倍率",
+					"若打出的牌包含{C:attention}同花順{}和{C:attention}7{}，",
+					"{X:dark_edition,C:white}運算符號{}升級一次",
+				},
+			},
+			j_pud_tom = {
+				name = "湯姆",
+				text = {
+					"打出的牌{C:attention}4{}計分時，",
+					"這張小丑獲得{C:red}+#1#{}倍率",
+					"{C:inactive}(目前{}{C:red}+#2#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_trex = {
+				name = "暴龍(v44-53)",
+				text = {
+					"打出的牌計分時{X:red,C:white}X#1#{}倍率",
+					"若計分的牌為{C:attention}萬能牌{}，改為{X:red,C:white}X#2#{}倍率",
+				},
+			},
+			j_pud_trickytracks = {
+				name = "棘手路徑",
+				text = {
+					"若打出的牌型為{C:attention}三條{}，",
+					"{X:red,C:white}X倍率{}成長一次",
+					"成長速率取決於當前{X:red,C:white}X倍率{}",
+					"與{X:red,C:white}X3{}倍率的距離",
+					"{C:inactive}(當前{}{X:red,C:white}X#1#{}{C:inactive}倍率，下次成長{}{X:red,C:white}+#2#{}{C:inactive}){}"
+				},
+			},
+			j_pud_tt5bug = {
+				name = "量子糾纏(v38)",
+				text = {
+					"{C:attention}左邊{}的小丑結算時",
+					"{C:attention}強制觸發右邊{}的小丑",
+				},
+			},
+			j_pud_virus = {
+				name = "病毒",
+				text = {
+					"回合結束時，",
+					"產生一張{C:rare}稀有{}小丑",
+				},
+			},
+			j_pud_watertower = {
+				name = "水塔",
+				text = {
+					"若打出的牌型不為{C:attention}最常打出{}的牌型",
+					"這張小丑獲得{C:red}+#2#{}倍率",
+					"{C:inactive}(目前{}{C:red}+#1#{}{C:inactive}倍率){}"
+				},
+			},
+			j_pud_witch = {
+				name = "女巫",
+				text = {
+					"每{C:attention}#2#{}次{C:inactive}(#1#){}出牌",
+					"產生一張隨機{C:tarot}塔羅牌{}",
+				},
+			},
+			j_pud_wither = {
+				name = "凋零怪",
+				text = {
+					"若打出的牌中有剛好3張",
+					"計分的{C:spades}黑桃{}牌，",
+					"這張小丑獲得{X:red,C:white}X#2#{}倍率",
+					"{C:inactive}(目前{}{X:red,C:white}X#1#{}{C:inactive}倍率){}",
+				},
+			},
+			j_pud_witherskeleton = {
+				name = "凋零骷髏",
+				text = {
+					"將所有打出並計分的牌",
+					"花色轉換為{C:spades}黑桃{}",
+				},
+			},
+			j_pud_zombie = {
+				name = "殭屍",
+				text = {
+					"賣掉這張牌時，",
+					"產生兩個{C:attention}皇后{}{C:tarot}塔羅牌{}",
+				},
+			},
+			j_pud_zombiepigman = { -- ah yes
+				name = "殭屍化豬布林",
+				text = {
+					"賣掉這張牌時，",
+					"產生一張{C:attention}惡魔{}和一張{C:attention}皇后{}",
+				},
+			},
+               },
+	},
+}
